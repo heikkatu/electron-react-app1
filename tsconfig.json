@@ -14,5 +14,10 @@
     "allowJs": true,
     "outDir": ".erb/dll"
   },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts" // Include your custom definitions file
+  ],
   "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
 }
